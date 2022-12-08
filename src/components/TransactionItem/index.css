@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.item_container {
+  display: flex;
+  justify-content: space-between;
+}
+li p {
+  width: 30%;
+}
+li div {
+  width: 40%;
+}
+.type_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete_button {
+  all: unset;
+  width: 15%;
+}
+.delete_button:focus {
+  outline: none;
+}
+.delete_image {
+  width: 100%;
+}
